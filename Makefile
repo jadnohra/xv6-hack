@@ -182,6 +182,8 @@ UPROGS=\
 	_wc\
 	_zombie\
 	_hacktest\
+	_hackspin\
+	_hackforkbomb\
 
 fs.img: mkfs README $(UPROGS)
 	./mkfs fs.img README $(UPROGS)
