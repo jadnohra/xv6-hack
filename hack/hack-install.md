@@ -38,5 +38,3 @@ mp.c: In function ‘mpinit’:
 ---
 
 sed -i 's/-Wno-infinite-recursion/-Wno-infinite-recursion -Wno-array-bounds/' Makefile
-
----
